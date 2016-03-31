@@ -1,0 +1,10 @@
+
+python( "import sys" );
+python( "sys.path.append('C:/depot/Robotoki_Resources/HEO/code/LIVE/python/2.7/')" );
+python( "sys.path.append('C:/depot/Robotoki_Resources/HEO/code/LIVE/maya/2014/scripts/common/tools/')" );
+python( "sys.path.append('C:/depot/Robotoki_Resources/MASTER/code/LIVE/python/2.7/')" );
+python( "sys.path.append('C:/depot/Robotoki_Resources/MASTER/code/LIVE/maya/2014/scripts/common/tools/')" );
+python( "import publishTools" );
+python( "reload(publishTools)" );
+
+python( "publishTools.publish_animAsset( 'HEO','','','','characters','maleRegular','anim','crouch_tac_walkCross_rifle_fLft_slow_3p_01','005','C:/depot/Robotoki_Resources/HEO/assets/LIVE/characters/maleRegular/anim/crouch_tac_walkCross_rifle_fLft_slow_3p_01/v005/maleRegular_anim_crouch_tac_walkCross_rifle_fLft_slow_3p_01.mb.joshua.ochoa',notes='''AM: batch update''',bypassedCheckList=[],addRecipients='' )" );

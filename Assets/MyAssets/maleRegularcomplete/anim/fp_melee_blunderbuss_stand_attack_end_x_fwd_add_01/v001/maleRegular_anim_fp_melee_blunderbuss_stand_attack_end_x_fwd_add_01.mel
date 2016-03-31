@@ -1,0 +1,10 @@
+
+python( "import sys" );
+python( "sys.path.append('C:/depot/Robotoki_Resources/HEO/code/LIVE/python/2.7/')" );
+python( "sys.path.append('C:/depot/Robotoki_Resources/HEO/code/LIVE/maya/2014/scripts/common/tools/')" );
+python( "sys.path.append('C:/depot/Robotoki_Resources/MASTER/code/LIVE/python/2.7/')" );
+python( "sys.path.append('C:/depot/Robotoki_Resources/MASTER/code/LIVE/maya/2014/scripts/common/tools/')" );
+python( "import publishTools" );
+python( "reload(publishTools)" );
+
+python( "publishTools.publish_animAsset( 'HEO','','','','characters','maleRegular','anim','fp_melee_blunderbuss_stand_attack_end_x_fwd_add_01','001','C:/depot/Robotoki_Resources/HEO/assets/LIVE/characters/maleRegular/anim/fp_melee_blunderbuss_stand_attack_end_x_fwd_add_01/v001/maleRegular_anim_fp_melee_blunderbuss_stand_attack_end_x_fwd_add_01.mb.jon.vener',notes='''Initial Save from non-three-part anim''',bypassedCheckList=[],addRecipients='' )" );

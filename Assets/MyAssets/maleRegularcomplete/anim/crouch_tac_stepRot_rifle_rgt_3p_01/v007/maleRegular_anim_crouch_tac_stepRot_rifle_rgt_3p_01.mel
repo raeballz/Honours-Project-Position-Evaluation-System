@@ -1,0 +1,10 @@
+
+python( "import sys" );
+python( "sys.path.append('C:/depot/Robotoki_Resources/HEO/code/LIVE/python/2.7/')" );
+python( "sys.path.append('C:/depot/Robotoki_Resources/HEO/code/LIVE/maya/2014/scripts/common/tools/')" );
+python( "sys.path.append('C:/depot/Robotoki_Resources/MASTER/code/LIVE/python/2.7/')" );
+python( "sys.path.append('C:/depot/Robotoki_Resources/MASTER/code/LIVE/maya/2014/scripts/common/tools/')" );
+python( "import publishTools" );
+python( "reload(publishTools)" );
+
+python( "publishTools.publish_animAsset( 'HEO','','','','characters','maleRegular','anim','crouch_tac_stepRot_rifle_rgt_3p_01','007','C:/depot/Robotoki_Resources/HEO/assets/LIVE/characters/maleRegular/anim/crouch_tac_stepRot_rifle_rgt_3p_01/v007/maleRegular_anim_crouch_tac_stepRot_rifle_rgt_3p_01.mb.jon.vener',notes='''fixed BIP anim''',bypassedCheckList=[],addRecipients='' )" );
